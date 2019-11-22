@@ -1,12 +1,17 @@
 body {
+    background: #ffffff;
     font-size: 16px;
 }
 
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0.25rem;
 
     &__logo {
         display: flex;
+        align-items: center;
     }
 
     &__logo-image {
@@ -15,13 +20,32 @@ body {
 
     &__sub {
         font-size: 0.75rem;
+        font-weight: bold;
+        align-self: flex-end;
     }
 }
 
-.btn {
+.hero {
+    background-image: url('../img/hero/main.jpg');
+    background-size: 100%;
 }
 
-.btn-primary {
-    border-radius: 2rem;
+.btn {
+    padding: 0.6rem 3rem;
+
+    &-primary {
+        border: none;
+        border-radius: 2rem;
+        background: #da6b64;
+        color: #ffffff;
+    }
+
+    &--small {
+        font-size: .75rem;
+    }
+
+    &:hover {
+        opacity: .6;
+    }
 }
 
