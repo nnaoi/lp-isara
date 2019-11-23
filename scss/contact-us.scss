@@ -1,0 +1,40 @@
+.contact-us {
+    background-color: $color-main;
+    color: #ffffff;
+    height: 33vh;
+    font-weight: bold;
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__wrapper {
+        text-align: center;
+        width: 100%;
+    }
+
+    &__message {
+        margin-bottom: .25rem;
+    }
+
+    &__message:last-of-type {
+        margin-bottom: 1rem;
+    }
+
+    &__warning-message-wrapper {
+        margin-bottom: 0.625rem;
+    }
+
+    &__warning-message {
+        background-color: #ffffff;
+        color: #C7254E;
+    }
+
+    &__btn {
+        margin-bottom: 2rem;
+    }
+
+    &__period {
+        margin-bottom: 2rem;
+    }
+}

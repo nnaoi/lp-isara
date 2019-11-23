@@ -1,0 +1,28 @@
+.btn {
+    padding: 0.6rem 3rem;
+
+    &-primary {
+        border: none;
+        border-radius: 2rem;
+        background: $color-btn-primary;
+        color: #ffffff;
+    }
+
+    &--small {
+        font-size: .75rem;
+    }
+
+    &--big {
+        font-size: 1.25rem;
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    &:hover {
+        background-color: #d84940;
+    }
+}
