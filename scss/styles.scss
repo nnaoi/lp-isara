@@ -1,51 +1,23 @@
-body {
-    background: #ffffff;
-    font-size: 16px;
-}
+@import "variables";
+@import "common/common";
+@import "common/btn";
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.75rem 0.25rem;
-
-    &__logo {
-        display: flex;
-        align-items: center;
-    }
-
-    &__logo-image {
-        width: 128px;
-    }
-
-    &__sub {
-        font-size: 0.75rem;
-        font-weight: bold;
-        align-self: flex-end;
-    }
-}
-
-.hero {
-    background-image: url('../img/hero/main.jpg');
-    background-size: 100%;
-}
-
-.btn {
-    padding: 0.6rem 3rem;
-
-    &-primary {
-        border: none;
-        border-radius: 2rem;
-        background: #da6b64;
-        color: #ffffff;
-    }
-
-    &--small {
-        font-size: .75rem;
-    }
-
-    &:hover {
-        opacity: .6;
-    }
-}
-
+@import "header";
+@import "hero";
+@import "contact-us";
+@import "preface";
+@import "about";
+@import "step";
+@import "learning-abstract";
+@import "merit";
+@import "member";
+@import "is-possible";
+@import "learning-detail";
+@import "flow";
+@import "why";
+@import "benefits";
+@import "no-volunteer";
+@import "message";
+@import "form";
+@import "qa";
+@import "footer";
