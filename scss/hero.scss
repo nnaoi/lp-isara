@@ -1,13 +1,11 @@
 .hero {
     background: url('../img/hero/main.jpg') no-repeat center center / 100% 100%;
     color: $color-txt-main;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 33vh;
 
     &__wrapper {
         text-align: center;
+        margin-top: 7rem;
+        margin-bottom: 7rem;
     }
 
     &__message {

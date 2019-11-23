@@ -1,11 +1,31 @@
 body {
     font-size: 16px;
-
-    p {
-        margin: 0;
-    }
-
-    h2 {
-        margin: 0;
-    }
 }
+
+p {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.underline--primary {
+    background: linear-gradient(transparent 65%, $color-main 0%);
+    font-weight: bold;
+}
+
+.rest {
+    height: 10vh;
+    background-image: url('../img/rest/introbottom.jpg');
+    background-size: 100%;
+    background-position: center 85%;
+    background-repeat: no-repeat;
+}
+
+.vertically-horizontally-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,16 +1,16 @@
 .contact-us {
     background-color: $color-main;
     color: #ffffff;
-    height: 33vh;
+    min-height: 33vh;
     font-weight: bold;
     font-size: 1.125rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     &__wrapper {
         text-align: center;
         width: 100%;
+        max-width: 1028px;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 
     &__message {
