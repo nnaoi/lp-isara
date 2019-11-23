@@ -1,9 +1,27 @@
 body {
   font-size: 16px; }
-  body p {
-    margin: 0; }
-  body h2 {
-    margin: 0; }
+
+p {
+  margin: 0; }
+
+h2 {
+  margin: 0; }
+
+.underline--primary {
+  background: linear-gradient(transparent 65%, #ebb94d 0%);
+  font-weight: bold; }
+
+.rest {
+  height: 10vh;
+  background-image: url("../img/rest/introbottom.jpg");
+  background-size: 100%;
+  background-position: center 85%;
+  background-repeat: no-repeat; }
+
+.vertically-horizontally-center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .btn {
   padding: 0.6rem 3rem; }
@@ -16,20 +34,23 @@ body {
     font-size: .75rem; }
   .btn--big {
     font-size: 1.25rem;
-    width: 80%;
+    width: 85%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem; }
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem; }
   .btn:hover {
     background-color: #d84940; }
 
 .header {
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
   align-items: center;
-  padding: 0.75rem 1rem; }
+  padding: 0.75rem 1rem;
+  background-color: #ffffff; }
   .header__logo {
     display: flex;
     align-items: center; }
@@ -43,13 +64,11 @@ body {
 
 .hero {
   background: url("../img/hero/main.jpg") no-repeat center center/100% 100%;
-  color: #333333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 33vh; }
+  color: #333333; }
   .hero__wrapper {
-    text-align: center; }
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 7rem; }
   .hero__message {
     font-size: 1.5rem;
     margin-bottom: 0.5rem; }
@@ -62,15 +81,15 @@ body {
 .contact-us {
   background-color: #ebb94d;
   color: #ffffff;
-  height: 33vh;
+  min-height: 33vh;
   font-weight: bold;
-  font-size: 1.125rem;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  font-size: 1.125rem; }
   .contact-us__wrapper {
     text-align: center;
-    width: 100%; }
+    width: 100%;
+    max-width: 1028px;
+    margin-top: 3rem;
+    margin-bottom: 3rem; }
   .contact-us__message {
     margin-bottom: .25rem; }
   .contact-us__message:last-of-type {
@@ -86,4 +105,57 @@ body {
     margin-bottom: 2rem; }
 
 .preface {
-  height: 50vh; }
+  min-height: 30vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .preface__wrapper {
+    margin-top: 2rem;
+    width: 85%;
+    max-width: 800px; }
+  .preface__title {
+    margin-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: relative; }
+  .preface__title:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 3rem;
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d; }
+  .preface__title:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    border-bottom: 0.25rem solid #ebb94d;
+    border-right: 0.25rem solid #ebb94d; }
+  .preface__preface {
+    margin-bottom: 2rem; }
+  .preface__question {
+    margin-bottom: 2rem; }
+  .preface__conclusion {
+    margin-bottom: 2rem; }
+
+.about {
+  text-align: center; }
+  .about__wrapper {
+    width: 85%; }
+  .about__icon {
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 0.875rem;
+    width: 5.125em;
+    height: 5.125em;
+    text-align: center;
+    line-height: 5.125em;
+    color: #ffffff;
+    background-color: #ebb94d;
+    transform: translateY(-50%); }

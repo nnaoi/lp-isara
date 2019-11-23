@@ -1,0 +1,20 @@
+.about {
+    text-align: center;
+
+    &__wrapper {
+        width: 85%;
+    }
+
+    &__icon {
+        display: inline-block;
+        border-radius: 50%;
+        font-size: 0.875rem;
+        width: 5.125em;
+        height: 5.125em;
+        text-align: center;
+        line-height: 5.125em;
+        color: #ffffff;
+        background-color: $color-main;
+        transform: translateY(-50%);
+    }
+}
