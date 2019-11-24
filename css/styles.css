@@ -1,5 +1,7 @@
+@charset "UTF-8";
 body {
-  font-size: 16px; }
+  font-size: 16px;
+  font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif; }
 
 p {
   margin: 0; }
@@ -50,7 +52,8 @@ h2 {
   top: 0;
   align-items: center;
   padding: 0.75rem 1rem;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  z-index: 10; }
   .header__logo {
     display: flex;
     align-items: center; }
@@ -145,9 +148,14 @@ h2 {
     margin-bottom: 2rem; }
 
 .about {
-  text-align: center; }
+  text-align: center;
+  background-color: #fef5e0;
+  color: #333333; }
   .about__wrapper {
-    width: 85%; }
+    width: 100%; }
+    .about__wrapper > * {
+      margin-left: auto;
+      margin-right: auto; }
   .about__icon {
     display: inline-block;
     border-radius: 50%;
@@ -159,3 +167,45 @@ h2 {
     color: #ffffff;
     background-color: #ebb94d;
     transform: translateY(-50%); }
+  .about__title {
+    position: relative;
+    margin-bottom: 3rem;
+    width: 85%;
+    max-width: 800px; }
+  .about__message {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem; }
+  .about__content-wrapper {
+    width: 90%;
+    border: 3px solid #ebb94d;
+    background-color: #ffffff;
+    margin-bottom: 4rem; }
+  .about__content-title {
+    font-size: 1.25rem; }
+  .about__skill-items {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; }
+  .about__skill-item {
+    padding: 0.625rem; }
+  .about__skill-item-txt {
+    margin: 0.625rem 0;
+    font-size: 0.75rem; }
+  .about__title:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 3rem;
+    border-top: 0.25rem solid #ebb94d;
+    border-left: 0.25rem solid #ebb94d; }
+  .about__title:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    border-bottom: 0.25rem solid #ebb94d;
+    border-right: 0.25rem solid #ebb94d; }
