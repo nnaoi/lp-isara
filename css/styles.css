@@ -253,3 +253,25 @@ h2, h3 {
   font-size: 1.25rem;
   text-align: center;
   padding: 2.5rem; }
+
+.learning-abstract {
+  text-align: center; }
+  .learning-abstract__title {
+    margin-top: 3rem;
+    margin-bottom: 2rem; }
+    .learning-abstract__title--small {
+      font-size: 0.875rem; }
+  .learning-abstract__message {
+    margin-bottom: 2rem;
+    font-size: 1.25rem; }
+  .learning-abstract__contents {
+    display: flex;
+    margin-bottom: 2rem; }
+  .learning-abstract__content {
+    width: 180px;
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem; }
+  .learning-abstract__content-message {
+    margin-bottom: 3rem;
+    font-weight: bold; }

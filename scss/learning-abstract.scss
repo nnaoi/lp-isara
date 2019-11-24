@@ -1,0 +1,34 @@
+.learning-abstract {
+    text-align: center;
+
+    &__title {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+
+        &--small {
+            font-size: 0.875rem;
+        }
+    }
+
+    &__message {
+        margin-bottom: 2rem;
+        font-size: 1.25rem;
+    }
+
+    &__contents {
+        display: flex;
+        margin-bottom: 2rem;
+    }
+
+    &__content {
+        width: 180px;
+        display: inline-block;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    &__content-message {
+        margin-bottom: 3rem;
+        font-weight: bold;
+    }
+}
