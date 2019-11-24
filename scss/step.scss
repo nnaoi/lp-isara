@@ -14,16 +14,11 @@
 
     &__message {
         color: #ffffff;
-        margin-bottom: 1rem;
     }
 
     &__content-wrapper {
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
         margin-top: 2rem;
-    }
-
-    &__contents {
-        display: flex;
     }
 
     &__content {
@@ -31,8 +26,8 @@
         margin-left: 1rem;
         margin-right: 1rem;
         padding: 1.5rem;
-        width: 30%;
         border-radius: 0.25rem;
+        margin-bottom: 2rem;
     }
 
     &__content-title {

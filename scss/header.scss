@@ -23,4 +23,36 @@
         align-self: flex-end;
         margin-left: 0.5rem;
     }
+
+    &__contactus-link {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 940px) { 
+    .header {
+        padding: 0;
+
+        &__logo {
+            flex-direction: column;
+            flex-flow: column-reverse;
+            align-items: flex-start;
+        }
+
+        &__contactus.btn {
+            display: none;
+        }
+
+        &__contactus-link {
+            display: inherit;
+            text-align: center;
+            height: 100%;
+            padding: 1rem;
+            background-color: $color-btn-primary;
+        }
+
+        &__contactus-link p {
+            color: #ffffff;
+        }
+    }
 }
