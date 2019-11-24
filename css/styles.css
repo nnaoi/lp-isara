@@ -6,7 +6,7 @@ body {
 p {
   margin: 0; }
 
-h2 {
+h2, h3 {
   margin: 0; }
 
 .underline--primary {
@@ -24,6 +24,9 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.color-txt-main {
+  color: #ebb94d; }
 
 .btn {
   padding: 0.6rem 3rem; }
@@ -181,7 +184,9 @@ h2 {
     background-color: #ffffff;
     margin-bottom: 4rem; }
   .about__content-title {
-    font-size: 1.25rem; }
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
   .about__skill-items {
     display: flex;
     align-items: flex-end;
@@ -209,3 +214,42 @@ h2 {
     height: 3rem;
     border-bottom: 0.25rem solid #ebb94d;
     border-right: 0.25rem solid #ebb94d; }
+
+.step {
+  background: url("../img/step/aboutsecondbg.jpg") no-repeat center center/100% 100%;
+  text-align: center; }
+  .step__wrapper {
+    width: 90%; }
+  .step__title {
+    color: #ffffff;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+  .step__message {
+    color: #ffffff;
+    margin-bottom: 1rem; }
+  .step__content-wrapper {
+    margin-bottom: 4rem;
+    margin-top: 2rem; }
+  .step__contents {
+    display: flex; }
+  .step__content {
+    background-color: #ffffff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1.5rem;
+    width: 30%;
+    border-radius: 0.25rem; }
+  .step__content-title {
+    color: #ffffff;
+    background-color: #ebb94d;
+    margin-bottom: 2rem; }
+  .step__content-txt p {
+    margin-top: 1rem;
+    font-weight: bold; }
+
+.step-bottom {
+  background-color: #016ea9;
+  color: #ffffff;
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 2.5rem; }

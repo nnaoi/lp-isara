@@ -7,7 +7,7 @@ p {
     margin: 0;
 }
 
-h2 {
+h2, h3 {
     margin: 0;
 }
 
@@ -28,5 +28,9 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.color-txt-main {
+    color: $color-main;
 }
 
