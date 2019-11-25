@@ -34,3 +34,12 @@
         font-weight: bold;
     }
 }
+
+@media screen and (max-width: 480px) { 
+    .learning-abstract {
+        &__content {
+            padding-left: .5rem;
+            padding-right: .5rem;
+        }
+    }
+}

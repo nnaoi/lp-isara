@@ -30,7 +30,7 @@ h2, h3 {
 
 @media screen and (max-width: 760px) {
   html {
-    font-size: 14px; } }
+    font-size: 12px; } }
 
 .btn {
   padding: 0.6rem 3rem; }
@@ -199,27 +199,6 @@ h2, h3 {
     margin-bottom: 3rem;
     width: 85%;
     max-width: 800px; }
-  .about__message {
-    font-size: 1.25rem;
-    margin-bottom: 2.5rem; }
-  .about__content-wrapper {
-    width: 90%;
-    border: 3px solid #ebb94d;
-    background-color: #ffffff;
-    margin-bottom: 4rem; }
-  .about__content-title {
-    font-size: 1.25rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem; }
-  .about__skill-items {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center; }
-  .about__skill-item {
-    padding: 0.625rem; }
-  .about__skill-item-txt {
-    margin: 0.625rem 0;
-    font-size: 0.75rem; }
   .about__title:before {
     content: '';
     position: absolute;
@@ -238,6 +217,28 @@ h2, h3 {
     height: 3rem;
     border-bottom: 0.25rem solid #ebb94d;
     border-right: 0.25rem solid #ebb94d; }
+  .about__message {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem; }
+  .about__content-wrapper {
+    width: 90%;
+    border: 3px solid #ebb94d;
+    background-color: #ffffff;
+    margin-bottom: 4rem; }
+  .about__content-title {
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+  .about__skill-items {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap; }
+  .about__skill-item {
+    padding: 0.625rem; }
+  .about__skill-item-txt {
+    margin: 0.625rem 0;
+    font-size: 0.75rem; }
 
 .step {
   background: url("../img/step/aboutsecondbg.jpg") no-repeat center center/100% 100%;
@@ -296,3 +297,8 @@ h2, h3 {
   .learning-abstract__content-message {
     margin-bottom: 3rem;
     font-weight: bold; }
+
+@media screen and (max-width: 480px) {
+  .learning-abstract__content {
+    padding-left: .5rem;
+    padding-right: .5rem; } }

@@ -32,6 +32,28 @@
         max-width: 800px;
     }
 
+    &__title:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 3rem;
+        height: 3rem;
+        border-top: 0.25rem solid $color-main;
+        border-left: 0.25rem solid $color-main;
+    }
+
+    &__title:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 3rem;
+        height: 3rem;
+        border-bottom: 0.25rem solid $color-main;
+        border-right: 0.25rem solid $color-main;
+    }
+
     &__message {
         font-size: 1.25rem;
         margin-bottom: 2.5rem;
@@ -54,6 +76,7 @@
         display: flex;
         align-items: flex-end;
         justify-content: center;
+        flex-wrap: wrap;
     }
 
     &__skill-item {
@@ -63,27 +86,5 @@
     &__skill-item-txt {
         margin: 0.625rem 0;
         font-size: 0.75rem;
-    }
-
-    &__title:before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 3rem;
-        height: 3rem;
-        border-top: 0.25rem solid $color-main;
-        border-left: 0.25rem solid $color-main;
-    }
-
-    &__title:after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        width: 3rem;
-        height: 3rem;
-        border-bottom: 0.25rem solid $color-main;
-        border-right: 0.25rem solid $color-main;
     }
 }
